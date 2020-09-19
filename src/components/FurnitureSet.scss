@@ -1,11 +1,16 @@
+@import "./mixins";
+
 .set {
   position: relative;
-  //   overflow-x: hidden;
   display: flex;
   width: 80%;
   max-width: 1680px;
   margin: 50px auto;
   padding: 50px 0;
+  @include respond(phone) {
+    padding: 0;
+  }
+
   &::before {
     content: "";
     background-image: url("../assets/set.png");
@@ -19,6 +24,11 @@
     width: 80%;
     min-width: 500px;
     z-index: -1;
+    @include respond(phone) {
+      width: 90%;
+      top: 35%;
+      min-width: unset;
+    }
   }
   &::after {
     content: "";
@@ -35,6 +45,10 @@
   &__describe {
     flex: 0.5;
     max-width: 400px;
+    @include respond(phone) {
+      flex: 1;
+    }
+
     > .created {
       margin-bottom: 50px;
       p {
@@ -47,6 +61,9 @@
         color: var(--color-primary);
         margin: 20px 0;
         font-size: 3em;
+        @include respond(phone) {
+          font-size: 2em;
+        }
       }
       .team {
         display: flex;

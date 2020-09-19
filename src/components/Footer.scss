@@ -1,9 +1,14 @@
+@import "./mixins";
+
 .footer {
   display: flex;
   padding: 20px 0;
   margin: 0 auto;
   width: 80%;
   max-width: 1680px;
+  @include respond(phone) {
+    width: 90%;
+  }
   &__left {
     display: flex;
     flex-direction: column;
@@ -11,6 +16,9 @@
     color: gray;
     > p {
       margin-top: 50px;
+      @include respond(phone) {
+        margin-top: 20px;
+      }
     }
     > .icons {
       > :not(:last-child) {
@@ -31,6 +39,9 @@
       }
       &:not(:last-child) {
         margin-right: 50px;
+        @include respond(phone) {
+          margin-right: 20px;
+        }
       }
       a {
         text-decoration: none;
@@ -40,6 +51,9 @@
       > a {
         margin-top: 50px;
         display: block;
+        @include respond(phone) {
+          margin-top: 20px;
+        }
       }
     }
   }

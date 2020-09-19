@@ -1,3 +1,5 @@
+@import "./mixins";
+
 .header {
   display: flex;
   width: 80%;
@@ -8,17 +10,30 @@
   background-repeat: no-repeat;
   background-size: 600px;
   background-position: 100% 50%;
+  @include respond(phone) {
+    width: 90%;
+    background-image: none;
+    padding: 20px 0;
+  }
 
   &__left {
     flex: 0.5;
     min-width: 400px;
     max-width: 550px;
+    @include respond(phone) {
+      min-width: unset;
+      flex: 1;
+    }
+
     h1 {
       font-size: 4rem;
       color: var(--color-primary);
       margin: 0 0 20px;
       span {
         color: rgba(255, 68, 0, 0.719);
+      }
+      @include respond(phone) {
+        font-size: 3em;
       }
     }
     p {
@@ -32,6 +47,10 @@
       border-radius: 20px;
       margin: 50px 0;
       padding: 10px;
+      @include respond(phone) {
+        margin: 20px 0;
+      }
+
       input {
         flex: 1;
         border: none;

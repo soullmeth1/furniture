@@ -1,0 +1,7 @@
+@mixin respond($val) {
+  @if ($val == phone) {
+    @media screen and (max-width: 400px) {
+      @content;
+    }
+  }
+}

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import "./mixins";
 
 .navbar {
   display: flex;
@@ -9,6 +10,10 @@
   width: 80%;
   max-width: 1680px;
   margin: 0 auto;
+  @include respond(phone) {
+    width: 90%;
+  }
+
   &__logo {
     font-family: "Great Vibes", cursive;
     font-size: 3em;
@@ -17,6 +22,10 @@
   &__nav {
     list-style: none;
     display: flex;
+    @include respond(phone) {
+      display: none;
+    }
+
     li {
       a {
         text-decoration: none;

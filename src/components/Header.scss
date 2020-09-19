@@ -1,0 +1,74 @@
+.header {
+  display: flex;
+  width: 80%;
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 50px 0;
+  background-image: url("../assets/chair.png");
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: 100% 50%;
+
+  &__left {
+    flex: 0.5;
+    min-width: 400px;
+    max-width: 550px;
+    h1 {
+      font-size: 4rem;
+      color: var(--color-primary);
+      margin: 0 0 20px;
+      span {
+        color: rgba(255, 68, 0, 0.719);
+      }
+    }
+    p {
+      color: rgb(172, 172, 172);
+      max-width: 200px;
+      font-weight: 500;
+    }
+    form {
+      display: flex;
+      background-color: rgb(238, 238, 238);
+      border-radius: 20px;
+      margin: 50px 0;
+      padding: 10px;
+      input {
+        flex: 1;
+        border: none;
+        background-color: transparent;
+        padding: 0 10px;
+        &:focus {
+          outline: none;
+        }
+      }
+      button {
+        flex: 0.3;
+        background-color: orangered;
+        padding: 10px 20px;
+        border-radius: 20px;
+        color: white;
+        border: none;
+      }
+    }
+    > div {
+      display: flex;
+      > div {
+        box-shadow: 1px 1px 5px lightgray;
+        flex: 1;
+        text-align: center;
+        padding: 10px;
+        h2 {
+          color: rgb(126, 91, 46);
+          font-size: 2em;
+        }
+        p {
+          font-weight: 400;
+        }
+
+        &:not(:last-child) {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

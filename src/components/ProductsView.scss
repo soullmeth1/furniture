@@ -1,0 +1,116 @@
+.show {
+  opacity: 1 !important;
+  transition: all 1s ease;
+}
+
+.view {
+  width: 80%;
+  max-width: 1680px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  flex-wrap: wrap;
+  opacity: 0;
+  &__product {
+    flex: 1;
+    position: relative;
+    > img {
+      max-width: 250px;
+    }
+    > button {
+      //   background-color: red;
+      width: 30px;
+      height: 30px;
+      border: none;
+      position: absolute;
+      //   z-index: -2;
+      box-shadow: 1px 1px 3px gray;
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+        transition: transform 0.2s ease;
+      }
+      &:nth-child(2) {
+        top: 20%;
+        background-color: brown;
+      }
+      &:nth-child(3) {
+        top: 35%;
+        background-color: yellow;
+      }
+      &:last-child {
+        top: 50%;
+        background-color: blue;
+      }
+    }
+    &::after {
+      content: "";
+      display: block;
+      background-color: lightgray;
+      width: 300px;
+      height: 200px;
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  }
+  &__details {
+    flex: 1.2;
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    > .info {
+      //   flex: 0.8;
+      h4 {
+        color: gray;
+      }
+      h1 {
+        color: var(--color-primary);
+        span {
+          font-size: 0.8em;
+        }
+
+        &:last-child {
+          margin: 20px 0;
+        }
+      }
+      p {
+        color: rgba(255, 68, 0, 0.788);
+      }
+    }
+    > .detail {
+      //   flex: 1;
+      display: flex;
+      flex-direction: column;
+      p {
+        color: gray;
+        text-align: justify;
+        min-width: 200px;
+      }
+      a {
+        color: orangered;
+        text-decoration: none;
+        margin-left: auto;
+        margin-top: 20px;
+      }
+    }
+  }
+  .submit {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    button {
+      background-color: orangered;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      color: white;
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.footer {
+  display: flex;
+  padding: 20px 0;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1680px;
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: gray;
+    > p {
+      margin-top: 50px;
+    }
+    > .icons {
+      > :not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+  }
+  &__right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    ul {
+      color: gray;
+      font-weight: 500;
+      list-style: none;
+      > li {
+        margin-top: 10px;
+      }
+      &:not(:last-child) {
+        margin-right: 50px;
+      }
+      a {
+        text-decoration: none;
+        font-weight: 400;
+        color: gray;
+      }
+      > a {
+        margin-top: 50px;
+        display: block;
+      }
+    }
+  }
+}

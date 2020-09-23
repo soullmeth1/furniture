@@ -17,16 +17,16 @@ function App() {
       { duration: 1000, pseudoElement: "::after" }
     );
 
-    function scroll(e) {
-      console.log(window.scrollY);
-      console.log(document.scrollingElement.scrollTop);
-      console.log(document.scrollingElement.clientHeight);
-    }
+    // function scroll(e) {
+    //   console.log(window.scrollY);
+    //   console.log(document.scrollingElement.scrollTop);
+    //   console.log(document.scrollingElement.clientHeight);
+    // }
 
-    window.addEventListener("scroll", scroll);
+    // window.addEventListener("scroll", scroll);
 
     return () => {
-      window.removeEventListener("scroll", scroll);
+      // window.removeEventListener("scroll", scroll);
     };
   }, []);
 

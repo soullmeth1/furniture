@@ -16,8 +16,8 @@ function Banner() {
             filter: ["blur(10px)", "blur(0)"],
           },
           {
-            delay: 500,
-            duration: 1000,
+            delay: 300,
+            duration: 700,
             fill: "forwards",
             easing: "ease",
           }

@@ -28,7 +28,7 @@ function Nav() {
     }
 
     animasi(nav.current.childNodes);
-    console.log(nav.current.childNodes);
+    // console.log(nav.current.childNodes);
   }, []);
   return (
     <div className="navbar">

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "./Header.scss";
-import chair from "../assets/chair1.png";
+// import chair from "../assets/chair1.png";
 
 function Header() {
   const el = useRef();

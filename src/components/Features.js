@@ -9,7 +9,7 @@ function Features() {
   const list = useRef();
   const show = useRef();
   useEffect(() => {
-    console.log([list.current]);
+    // console.log([list.current]);
     function aniim() {
       let scrollCount =
         document.scrollingElement.scrollTop +

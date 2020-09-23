@@ -24,6 +24,7 @@
     width: 80%;
     min-width: 500px;
     z-index: -1;
+    transform: scale(0);
     @include respond(phone) {
       width: 90%;
       top: 35%;
@@ -41,6 +42,7 @@
     background-color: rgba(133, 77, 77, 0.527);
     z-index: -2;
     border-radius: 100px;
+    transform: translateX(100%);
   }
   &__describe {
     flex: 0.5;
@@ -51,6 +53,7 @@
 
     > .created {
       margin-bottom: 50px;
+      opacity: 0;
       p {
         color: gray;
         font-size: 1em;
@@ -75,6 +78,7 @@
     }
 
     > .desc {
+      opacity: 0;
       margin-top: 50px;
       display: inline-block;
       h2 {

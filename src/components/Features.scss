@@ -23,6 +23,7 @@ section {
     }
 
     h1 {
+      opacity: 0;
       color: var(--color-primary);
       font-size: 3em;
       margin-bottom: 20px;
@@ -46,6 +47,8 @@ section {
 
       li {
         padding: 10px 0;
+        transform: translateX(-100%);
+        opacity: 0;
         @include respond(phone) {
           padding: 10px;
         }
@@ -73,6 +76,7 @@ section {
   &__show {
     display: flex;
     .card {
+      opacity: 0;
       flex: 1;
       h2 {
         font-size: 2em;
@@ -130,6 +134,7 @@ section {
       }
     }
     > img {
+      opacity: 0;
       max-width: 400px;
       @include respond(phone) {
         display: none;

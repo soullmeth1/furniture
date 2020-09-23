@@ -15,7 +15,11 @@ function ProductsView() {
           document.scrollingElement.clientHeight >
         850
       ) {
-        el.current.classList.add("show");
+        el.current.animate(
+          { opacity: [0, 1] },
+          { duration: 1000, fill: "forwards" }
+        );
+        window.removeEventListener("scroll", scroll);
       }
     }
 

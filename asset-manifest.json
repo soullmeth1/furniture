@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/furniture/static/css/main.3f989b68.chunk.css",
+    "main.js": "/furniture/static/js/main.d4f8817a.chunk.js",
+    "main.js.map": "/furniture/static/js/main.d4f8817a.chunk.js.map",
+    "runtime-main.js": "/furniture/static/js/runtime-main.9df13dd7.js",
+    "runtime-main.js.map": "/furniture/static/js/runtime-main.9df13dd7.js.map",
+    "static/js/2.056e29df.chunk.js": "/furniture/static/js/2.056e29df.chunk.js",
+    "static/js/2.056e29df.chunk.js.map": "/furniture/static/js/2.056e29df.chunk.js.map",
+    "index.html": "/furniture/index.html",
+    "precache-manifest.f60753ae64d850e5f82740058f3d0cb1.js": "/furniture/precache-manifest.f60753ae64d850e5f82740058f3d0cb1.js",
+    "service-worker.js": "/furniture/service-worker.js",
+    "static/css/main.3f989b68.chunk.css.map": "/furniture/static/css/main.3f989b68.chunk.css.map",
+    "static/js/2.056e29df.chunk.js.LICENSE.txt": "/furniture/static/js/2.056e29df.chunk.js.LICENSE.txt",
+    "static/media/Banner.scss": "/furniture/static/media/banner.c8106259.jpg",
+    "static/media/Header.scss": "/furniture/static/media/chair.38901fc1.png",
+    "static/media/chair1.png": "/furniture/static/media/chair1.b1abd841.png",
+    "static/media/lamp.png": "/furniture/static/media/lamp.d1e00e16.png",
+    "static/media/lamp1.png": "/furniture/static/media/lamp1.d555cb0f.png",
+    "static/media/lamp2.png": "/furniture/static/media/lamp2.35652cc0.png",
+    "static/media/FurnitureSet.scss": "/furniture/static/media/set.c0f5ca99.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9df13dd7.js",
+    "static/js/2.056e29df.chunk.js",
+    "static/css/main.3f989b68.chunk.css",
+    "static/js/main.d4f8817a.chunk.js"
+  ]
+}

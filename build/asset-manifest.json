@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1a1e3b10.chunk.css",
+    "main.js": "/static/js/main.d4f8817a.chunk.js",
+    "main.js.map": "/static/js/main.d4f8817a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.daf52f63.js",
+    "runtime-main.js.map": "/static/js/runtime-main.daf52f63.js.map",
+    "static/js/2.056e29df.chunk.js": "/static/js/2.056e29df.chunk.js",
+    "static/js/2.056e29df.chunk.js.map": "/static/js/2.056e29df.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c0e31add2f62615689c73171ed28ac21.js": "/precache-manifest.c0e31add2f62615689c73171ed28ac21.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1a1e3b10.chunk.css.map": "/static/css/main.1a1e3b10.chunk.css.map",
+    "static/js/2.056e29df.chunk.js.LICENSE.txt": "/static/js/2.056e29df.chunk.js.LICENSE.txt",
+    "static/media/Banner.scss": "/static/media/banner.c8106259.jpg",
+    "static/media/Header.scss": "/static/media/chair.38901fc1.png",
+    "static/media/chair1.png": "/static/media/chair1.b1abd841.png",
+    "static/media/lamp.png": "/static/media/lamp.d1e00e16.png",
+    "static/media/lamp1.png": "/static/media/lamp1.d555cb0f.png",
+    "static/media/lamp2.png": "/static/media/lamp2.35652cc0.png",
+    "static/media/FurnitureSet.scss": "/static/media/set.c0f5ca99.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.daf52f63.js",
+    "static/js/2.056e29df.chunk.js",
+    "static/css/main.1a1e3b10.chunk.css",
+    "static/js/main.d4f8817a.chunk.js"
+  ]
+}
